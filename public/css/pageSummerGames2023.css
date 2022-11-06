@@ -1,0 +1,209 @@
+/*Polices personnalisées*/
+@font-face {
+    font-family: 'enchantedLand';
+    src: url('../polices/EnchantedLand.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../polices/Roboto-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BlackCastleMF';
+    src: url('../polices/BlackCastleMF.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+	--border-brown:#735B43;
+	font-size: 10px;
+}
+
+body {
+   background-image:url("../images/fondTable.jpg");
+   padding: 50px 0;
+}
+
+.ensemble {
+	margin: auto;
+ 	width: 75%;
+}
+
+.header {
+	margin-bottom: 20px;
+
+   	background-image:url("../images/parchemin1.jpg");
+
+   	border: 4px var(--border-brown) solid;
+   	border-radius: 20px;
+	box-shadow: 10px 10px 10px var(--border-brown);
+
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.header__titles-main {
+	margin-bottom: 10px;
+	font-size: 9rem;
+	font-family: BlackCastleMF, serif;
+}
+
+.header__titles-sub {
+	font-family: enchantedLand, serif;
+	font-size: 5rem;
+}
+
+.header__logoCTR {
+	flex: 0.5;
+	margin-left: 20px;
+}
+
+.header__titles {
+	flex: 3;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.header__social {
+	flex: 0.5;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	margin: 5px 5px 0px 0px;
+	width: 50px;
+}
+
+.header__social img {
+	width: 40px;
+	height: 40px;
+}
+
+.navbar {
+	margin-bottom: 10px;
+
+    background-image:url("../images/parchemin1.jpg");
+
+	border: 3px solid var(--border-brown);
+	border-radius: 20px 20px 20px 20px;
+	box-shadow: 6px 6px 10px var(--border-brown);
+
+	font-family: enchantedLand, serif;
+	font-size: 5rem;
+
+  	height: 60px;
+  	z-index: 99;
+  	position: sticky;
+	top: 20px;
+}
+
+/*Définissez la position à "absolute" pour que notre menus déroulant ne tirent pas d'autres éléments vers le bas.*/
+
+.navbar__list {
+  height: 50px;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+/*Alignez les éléments de notre menu horizontalement en haut de la page en définissant la propriété float à "left".*/
+
+/* .navbar__list li {
+  height: auto;
+  width: auto;
+  float: left;
+  text-align: center;
+
+} */
+
+/*Stylisez le reste des balises d'ancrage.*/
+
+.navbar__list a {
+  padding: 4px 0px 0px 0px ;
+  text-decoration: none;
+  color: black;
+  display: block;
+  text-align: center;
+}
+
+/*Stylisez l'arrière-plan du menu pour qu'il change la couleur lorsqu'il est en survol.*/
+
+.navbar__list li:hover, a:hover {
+   color: darkred;
+}
+
+/*Ajoutez un style pour masquer le menu déroulant, et un autre style pour l'afficher lorsqu'un pointeur de sourit est placé sur l'élément principal du menu.*/
+
+.navbar__list li ul {
+  display: none;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar__list li:hover ul {
+  display: block;
+}
+
+/*Stylisez le menu déroulant.*/
+.navbar__list li ul li {
+   background-image:url("../images/parchemin1.jpg");
+   font-size: 3.2rem;
+}
+
+/*Changez les bordures, pour créer un effet du menu principal.*/
+.navbar__list li ul li a {
+  	border: 1px solid var(--border-brown);
+}
+
+
+section {
+	display: flex;
+	font-family: Roboto, serif;
+}
+
+.event {
+
+}
+
+.event {
+	padding: 0px 20px 0px 20px;
+
+    background-image:url("../images/parchemin1.jpg");
+
+	border: 3px solid var(--border-brown);
+	border-radius: 20px 20px 20px 20px;
+	box-shadow: 6px 6px 10px var(--border-brown);
+
+	text-align: center;
+	font-size: 3rem;
+
+	flex :1.2;
+	margin-right: 10px;
+	text-align: center;
+}
+
+.actuality {
+    background-image:url("../images/parchemin1.jpg");
+
+	border: 3px solid var(--border-brown);
+	border-radius: 20px 20px 20px 20px;
+	box-shadow: 6px 6px 10px var(--border-brown);
+
+	text-align: center;
+	font-size: 5rem;
+
+	flex :3;
+
+	align-items: center;
+	padding: 40px 0px 0px 0px;
+	color: #ef3628;
+}

@@ -1,0 +1,76 @@
+.navbar {
+	  margin-bottom: 10px;
+
+    background-image:url("/images/parchemin1.jpg");
+
+    border: 3px solid var(--border-brown);
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 6px 6px 10px var(--border-brown);
+
+    font-family: 'Merienda One', cursive;
+    font-size: 3rem;
+
+  	height: 45px;
+  	z-index: 99;
+  	position: sticky;
+	  top: 20px;
+}
+
+.navbar__menu-for-little-screen {
+  display: none;
+}
+
+/*Définissez la position à "absolute" pour que notre menus déroulant ne tirent pas d'autres éléments vers le bas.*/
+.navbar__list {
+  height: 50px;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+/*Alignez les éléments de notre menu horizontalement en haut de la page en définissant la propriété float à "left".*/
+/* .navbar__list li {
+  height: auto;
+  width: auto;
+  float: left;
+  text-align: center;
+
+} */
+
+/*Stylisez le reste des balises d'ancrage.*/
+.navbar__list a {
+  padding: 4px 0px 0px 0px ;
+  text-decoration: none;
+  color: black;
+  display: block;
+  text-align: center;
+}
+
+/*Stylisez l'arrière-plan du menu pour qu'il change la couleur lorsqu'il est en survol.*/
+.navbar__list li:hover, a:hover {
+  color: darkred;
+}
+
+/*Ajoutez un style pour masquer le menu déroulant, et un autre style pour l'afficher lorsqu'un pointeur de sourit est placé sur l'élément principal du menu.*/
+.navbar__list li ul {
+  display: none;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar__list li:hover ul {
+  display: block;
+}
+
+/*Stylisez le menu déroulant.*/
+.navbar__list li ul li {
+   background-image:url("/images/parchemin1.jpg");
+   font-size: 2.5rem;
+}
+
+/*Changez les bordures, pour créer un effet du menu principal.*/
+.navbar__list li ul li a {
+  	border: 1px solid var(--border-brown);
+}

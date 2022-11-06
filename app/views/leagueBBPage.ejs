@@ -1,0 +1,120 @@
+<%- include('partials/header') %>
+<%- include('partials/nav') %>
+
+			<section class="league">
+				<div class = "league__header"> <!--Description de la ligue-->
+					<h1 class = "league__header-title">League Blood Bowl</h1>
+					<div class = "league__header-description">
+						<div class="league__header-description-text">
+							<p class = "league__header-description-text-paragraph">Le Chevalier de la Table Raz a l'honneur de vous présenter son 5ème tournoi !</p>
+							<p class = "league__header-description-text-paragraph">Exceptionnellement cette année, le tournoi aura lieu dans la ville maléfique et troglodyte de Trollimar. Dans un monde dédié aux gens bons et à d’autres enculés de ce genre, existe un coin de paradis pour toutes personnes amoureux des vices de ce monde : Trollimar. </p>
+							<p class = "league__header-description-text-paragraph">Trollimar, carrefour culturel et économique coincé entre le Royaume Humain de Goodplace et le Royaume Elfique de Loreal, accueille avec cette même bonne malveillance que votre belle-mère, tout individu ayant rejeté toute forme de... « bruit de vomi »… pardon… de Bien.</p>
+							<p class = "league__header-description-text-paragraph">Bienvenus au grand tournoi de Blood Bowl de Trollimar, cité du Maaaaaal.</p>
+						</div>
+						<img class = "league__header-image" src="/images/leagueBB.jpg">
+					</div>
+				</div>
+
+				<div class = "league__rules">
+					<h3 class = "league__rules-title">Réglement</h3>
+					<div class = "league__rules-text">
+						<ul>
+							<li>Un match par mois.</li>
+							<li>Avoir une équipe tirée du livre de règle 2020.</li>
+							<li>Création des équipes (XP et PO) en fonction des tiers.</li>
+							<li>Choix d'un sponsor par équipe.</li>
+							<li>Matchs amicaux autorisés.</li>
+							<li>Être membre des Chevaliers de la Table Raz.</li>
+							<li>Conditions différentes pour chaque match.</li>
+						</ul>
+						<ul>
+							<li>Comptabilisation des points</li>
+							<ul>
+								<li>Victoire : 5000 pts</li>
+								<li>Égalité : 2000 pts</li>
+								<li>Défaite : 1000 pts</li>
+								<li>Non joué : 0 pts</li>
+								<li>Touchdown (TD) : 30 pts</li>
+								<li>Sortir un joueur (blocage/agression/public) : 20 pts</li>
+								<li>Bonus offensif (BO) : victoire avec +3 TD : 20 pts</li>
+								<li>Bonus défensif (B Def): défaite avec max 1 TD: 10 pts</li>
+								<li>Bonus destructif (B Des): victoire par Table Raz : + 50 pts </li>
+							</ul>
+						</ul>
+					</div>						
+				</div>
+
+				<div class = "league__rank">
+					<h3 class = "league__title">Classement général</h3>						
+					
+					<div class="league__rank-table">
+						<table>
+							<thead>
+								<tr>
+									<th>Joueur</th>
+									<th>Equipe</th>
+									<th>Nom d'équipe</th>
+									<th>Poule</th>
+									<th>Vic.</th>
+									<th>Nul</th>
+									<th>Déf.</th>
+									<th>TD</th>
+									<th>Sortie</th>
+									<th>B Off</th>
+									<th>B Déf</th>
+									<th>B des</th>
+									<th>Total (pts)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th></th>
+									<th></th>
+									<th></th>
+									<th></th>
+									<th></th>
+									<th></th>
+									<th></th>
+									<th></th>
+									<th></th>
+									<th></th>
+									<th></th>
+									<th></th>
+									<th></th>
+								</tr>
+							</tbody>
+						</table>
+					</div>	
+				</div>
+
+				<div class = "league__results">
+					<h3>Résultats par tour</h3>	
+
+					<div class = "league__results-turn">
+						<h4 class = "league__results-turn-title">Tour 1</h4>
+						<ul class = "league__results-turn-parameters">
+							<li>Stade : Etals de marchandise</li>
+							<li>Météo estivale</li>
+						</ul>
+						<div class = "league__results-turn-1">
+							<div class = "league__results-turn-1-group-1">
+								<h5 class = "league__results-turn-1-group-1-title">Poule 1</h5>
+								<img class = "league__results-turn-1-group-1-score" src="/images/BB-Tour1-Poule1.png" alt="Résultats Tour 1 Groupe 1">
+							</div>
+							<div class = "league__results-turn-1-group-2">
+								<h5 class = "league__results-turn-1-group-2-title">Poule 2</h5>
+								<img  class = "league__results-turn-1-group-2-score" src="/images/BB-Tour1-Poule2.png" alt="Résultats Tour 1 Groupe 2">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="league__footer"></div>
+			</section>
+		</div>	
+
+
+		<%- include('partials/footer') %>
+
+		<script src="/script/pageLigueBB.js"></script>
+	</body>
+</html>

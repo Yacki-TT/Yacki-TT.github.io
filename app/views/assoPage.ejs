@@ -1,0 +1,212 @@
+<%- include('partials/header') %>
+<%- include('partials/nav') %>
+
+			<section class="association"> <!--Comprend description de l'asso, liste des jeux, description des jeux-->
+				<article class = "association__description"> <!--Description de l'asso-->
+					<h3 class="association__description-title-qui">Qui sommes nous ?</h3>
+					<p class="association__description-text"><strong> Les Chevaliers de la Table Raz (CTR)</strong> est une association loi 1901 de jeux de figurines créé en 1997. Nous nous réunissons tous les mercredis soirs de 19h à 23h, dans la salle des fêtes de Bonnefamille (38 - Isère). Amoureux des figurines, nous partageons notre passion d'hobbyiste (montage, peinture, jeu) sur un Discord.</p>
+					<h3 class="association__description-title-office">Le bureau</h3>			
+					<ul class = "association__description-office">
+						<li><span class="underline">Président :</span> Jordan / Ayreon</li>
+						<li><span class="underline">Trésorier :</span> Philippe / Sacks</li>
+						<li><span class="underline">Vice-trésorier :</span> Franck / Nino</li>
+						<li><span class="underline">Secrétaire :</span> Thibault / Yacki</li>
+						<li><span class="underline">Vice-secrétaire :</span> Cédric / Cryo</li>
+					</ul>
+
+					
+					<div class="association__description-complementary">
+						<div class ="association__description-complementary-map">
+							<h3 class="association__description-title-ou">Où sommes-nous ?</h3>
+							<iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d697.920281698413!2d5.128332983861339!3d45.59695459999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x361e2bb57b8ec78d!2sM%C3%A9diath%C3%A8que%20intercommunale%20%C3%A0%20Bonnefamille%2FRoche!5e0!3m2!1sen!2sfr!4v1661785321365!5m2!1sen!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						</div>
+						<div class="association__description-complementary-sponsor">
+							<h3 class="association__description-complementary-sponsor-title-partnership">Partenariats</h3>
+							<a href="https://www.declicludik.fr/">
+								<img src="/images/logoDeclic.jpg" alt="Logo Declic">
+							</a>
+
+							<!-- <img src="/images/logoMiniverse.jpg" alt="Logo Miniverse"> -->
+
+							<a href="#">
+								<img src="/images/logoMiniverse.jpg" alt="Logo Miniverse">
+							</a>
+							<h3 class="association__description-complementary-sponsor-title-sponsor">Sponsor</h3>
+							<a href="#">
+								<img src="/images/logoDeclic.jpg" alt="Logo Sponsor">
+							</a>
+						</div>	
+					</div>
+				</article>
+
+				<article class = "association__games">	
+					<h3 class= "association__games-title">A quoi jouons-nous ?</h3>
+					
+					<div class="association__games-layout">
+						<div class="association__games-type">
+							<img class="association__games-type-typeOfGame figsGame" src="/images/type-game-figs.jpg" alt="Jeu de figurines">
+							<img class="association__games-type-typeOfGame cardsGame opacity" src="/images/type-game-cards.png" alt="Jeu de carte à collectionner">
+							<img class="association__games-type-typeOfGame boardGame opacity" src="/images/type-game-societe.jpg" alt="Jeu de plateau">
+							<img class="association__games-type-typeOfGame RolePlayingGame opacity" src="/images/type-game-role.jpg" alt="Jeu de rôle">
+						</div>
+						
+						<!-- DESCRIPTION JEUX DE FIGURINES -->
+						<div class="association__games-detail figsGame" >
+							
+							<div class="association__games-detail-generalPresentation">
+								<h4 class="association__games-detail-generalPresentation-title">Jeux de figurines</h4>
+								<p class="association__games-detail-generalPresentation-text">L'activité principale des Chevaliers de la Table Raz réside dans le jeu de figurine ou wargame. Le principe ? Assembler et peindre des figurines issus d'univers historiques, fantastiques ou futuristes pour ensuite les aligner sur un champs de bataille. Une série de règles, propre à chaque univers, expliquer ce que les joueurs peuvent faire en matière de déplacement, de tir, de combat ou de moral.</p>
+							</div>
+
+							<div class="association__games-detail-specificPresentation">
+								<div class = "association__games-detail-list">
+									<div>
+										<img src="/images/AOS.jpg" alt="Age Of Sigmar" id ="iconeAOS" class="imageGame AOS">
+										<p>Age of Sigmar</p>
+									</div>
+									<div>
+										<img src="/images/Bloodbowl.jpg" alt="Blood bowl" id= "iconeBloodbowl" class="imageGame BB">
+										<p>Blood Bowl</p>
+									</div>
+									<div>
+										<img src="/images/CodeOne.jpg" alt="Infinity CodeOne" id= "iconeBloodbowl" class="imageGame codeOne">
+										<p>Infinity CodeOne</p>
+									</div>
+									<div>
+									<img src="/images/MCP.jpg" alt="Marvel: Crisis Protocol" id ="iconeMCP" class="imageGame MCP">
+									<p>Marvel: Crisis Protocol</p>
+									</div>
+									<div>
+										<img src="/images/Saga.jpg" alt="Saga" id ="iconeSaga" class="imageGame saga">
+										<p>Saga</p>
+									</div>
+									<div>
+										<img src="/images/Legion.jpg" alt="Star Wars Legion" id ="iconeLegion" class="imageGame legion">
+										<p>Star Wars Legion</p>
+									</div>
+									<div>
+										<img src="/images/W40K.jpg" alt="Warhammer 40000" id ="icone40K" class="imageGame 40K">
+										<p>Warhammer 40K</p>
+									</div>
+									<div>
+										<img src="/images/autre.png" alt="Autres jeux" id = "iconeAutre" class="imageGame autre">
+									</div>
+								</div>
+								
+								<div class = "association__games-detail-description">
+									<!-- Description commune -->
+									<div class ="association__games-description" >
+										<img src="/images/logoCTRCarre.png" alt="Image commune" id ="imageCommune" class ="association__games-description-image commun">
+										<p class = "association__games-description-commun-quote quote-game">Choisissez un jeu dans la liste ci-contre.</p>
+									</div>
+									<!-- Description AOS -->
+									<div class ="association__games-description AOS hidden">
+										<img id="essai" src="/images/AOS.jpg" alt="Age Of Sigmar" class ="association__games-description-image AOS">
+										<div class="association__games-description-information">
+											<img src="/images/LogoAOS.png" class="association__games-description-information-logo">
+											<p class = "quote-game"><i>Remercions Sigmar de nous avoir menés à destination, mes amis ! Sigmar nous protège !</i></p>
+											<p class = "text-game">Age of Sigmar (AOS) prend place dans l'univers fantastique de Warhammer. Permettant des batailles épiques alignant infanterie, cavalerie, sorcier et autre monstre, vous êtes à la tête d'une des multiples armées réunis en quatre Grande Alliance : l'Ordre, le Chaos, la Mort et la Destruction.</p>
+										</div>
+									</div>
+									<!-- Description Blood Bowl -->
+									<div class ="association__games-description BB hidden">
+										<img src="/images/Bloodbowl.jpg" alt="Blood bowl" class ="association__games-description-image BB">
+										<div class="association__games-description-information">
+											<img src="/images/logoBB.png" class="association__games-description-information-logo">
+											<p class = "quote-game"><i>On les kogne jusqu'à c'quils arrêtent d'gigoter, pis après on va marquer, pigé ?</i></p>
+											<p class = "text-game">Blood Bowl est un jeu de football américain, violent et décalé, prenant part dans l'univers de Warhammer. A la tête de vos joueurs, affronté d'autres équipe variés et techniquement différentes pour de grands moments de fun !</p>
+										</div>
+									</div>
+									<!-- Description Infinity CodeOne -->
+									<div class ="association__games-description codeOne hidden">
+										<img src="/images/CodeOne.jpg" alt="Infinity CodeOne" class ="association__games-description-image codeOne">
+										<div class="association__games-description-information">
+											<img src="/images/LogoCodeOne.png" class="association__games-description-information-logo">
+											<p class = "quote-game"><i></i></p>
+											<p class = "text-game">Infinity CodeOne est un jeu de figurine d'escarmouche dynamique qui se situe dans l’univers d’Infinity.  Il s'agit d'une version simplifiée et plus accessible que son grand frère et est conçu pour être joué dans des batailles rapides et intenses. Partez en guerre à la tête de soldats, de méca-armure et de hackers.</p>
+										</div>
+									</div>
+									<!-- Description Marvel: Crisis Protocol -->
+									<div class ="association__games-description MCP hidden">
+										<img src="/images/MCP.jpg" alt="Marvel: Crisis Protocol" class ="association__games-description-image MCP">
+										<div class="association__games-description-information">
+											<img src="/images/logoMarvel.png" class="association__games-description-information-logo">
+											<p class = "quote-game"><i>Excelsior !</i></p>
+											<p class = "text-game">Marvel Crisis Protocol prend par dans l'univers bien connu de la Maison des Idées. A la tête d'une équipe de super-héros ou de super-vilains, revivez des affrontements épiques avec vos supers préférés.</p>
+										</div>
+									</div>
+									<!-- Description SAGA -->
+									<div class ="association__games-description saga hidden">
+										<img src="/images/Saga.jpg" alt="Saga" class ="association__games-description-image saga">
+										<div class="association__games-description-information">
+											<img src="/images/logoSaga.png" class="association__games-description-information-logo">
+											<p class = "quote-game"><i>Alea jacta est.</i></p>
+											<p class = "text-game">Saga évolue dans un univers historique. Commandez votre armée à la tête de multiples factions au style de jeu varié et ce, à travers différents âges de l'Histoire (Hannibal, les invasions barbares, les vikings, les croisades ou encore Alexandre). Sans compter une variante "magique" qui permet aussi de réaliser des batailles fantastiques. </p>
+										</div>
+									</div>
+									<!-- Description Star Wars - Légion -->
+									<div class ="association__games-description legion hidden">
+										<img src="/images/Legion.jpg" alt="Star Wars Légion" class ="association__games-description-image legion">
+										<div class="association__games-description-information">
+											<img src="/images/logoLegion.png" class="association__games-description-information-logo">
+											<p class = "quote-game"><i>Il y a bien longtemps, dans une galaxie lointaine, très lointaine... </i></p>
+											<p class = "text-game">Star Wars Legion permet de réaliser des batailles dans le célèbre univers éponyme. Incarnez jedi et autres grands héros de la plus grande saga de l'histoire à la tête de l'Empire, de l'Alliance Rebelle, de la République, de l'Alliance Séparatiste ou encore d'autres factions.</p>
+										</div>
+									</div>
+									<!-- Description Warhammer 40K -->
+									<div class ="association__games-description 40K hidden">
+										<img src="/images/W40K.jpg" alt="Warhammer 40000" class ="association__games-description-image 40K">
+										<div class="association__games-description-information">
+											<img src="/images/logo40K.png" class="association__games-description-information-logo">
+											<p class = "quote-game"><i>Dans les ténèbres d’un lointain futur, il n’y a pas que la guerre...</i></p>
+											<p class = "text-game">Warhammer 40.000 vous plonge dans des batailles futuristes dans un univers gothique intergalactique aux multiples races. Rejoignez les champs de bataille en incarnant les Humains de l'Imperium ou l'un des multiples races extra-terrestres que le jeu vous propose.</p>
+										</div>
+									</div>
+									<!-- Description Jeux de figurines divers -->
+									<div class ="association__games-description autre hidden">
+										<img src="/images/autre.png" alt="Jeux de figurines divers" class ="association__games-description-image autre">
+										<div class="association__games-description-information" class="association__games-description-information-logo">
+											<p class = "quote-game"><i>« J'aimerais tellement jouer à tout...» </br>Signé : Un joueur lambda de jeu de figurines.</i></p>
+											<p class = "text-game">Des univers de jeux de figurines, il y en a des dizaines. Et nous, ce que nous aimons par dessus tout, ce sont les figurines. Du coup, si vous voulez jouer à d'autres jeux que cités ci-dessus, vous trouverez sûrement des joueurs avec qui partager votre passion.</p>
+										</div>
+									</div>
+								</div>
+								</div>
+							</div>
+
+						<!-- DESCRIPTION JEUX DE CARTES -->
+						<div class = "association__games-detail cardsGame hidden">
+							<div class = "association__games-detail-generalPresentation">
+								<h4 class="association__games-detail-generalPresentation-title">Jeux de cartes à collectionner</h4>
+								<p class="association__games-detail-generalPresentation-text">Les jeux de cartes à jouer et à collectionner consistent à construire un paquet de cartes, appelé "deck", afin de battre son adversaire. Les cartes sont des ressources ayant des coûts et des effets divers. Les jeux proposent souvent des centaines voire des milliers de cartes différentes. Chaque joueur peut ainsi combiner les meilleurs cartes ou celles qui fonctionnent le mieux ensemble selon sa stratégie. La construction de son deck représente une part importante du jeu. Pendant la partie, les joueurs essayeront d'utiliser au mieux leurs cartes pour remporter la victoire.</p>
+							</div>
+						</div>
+
+						<!-- DESCRIPTION JEUX DE PLATEAU -->
+						<div class = "association__games-detail boardGame hidden">
+							<div class = "association__games-detail-generalPresentation">
+								<h4 class="association__games-detail-generalPresentation-title">Jeux de plateau</h4>
+								<p class="association__games-detail-generalPresentation-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, repellendus eum dolorum numquam placeat dolore alias totam aspernatur error qui accusantium laudantium officia facere itaque necessitatibus quas reiciendis obcaecati dignissimos animi iste laboriosam nesciunt saepe accusamus iusto! Mollitia voluptates alias, beatae corrupti corporis obcaecati hic totam est, assumenda enim minima!</p>								
+							</div>
+						</div>
+
+						<!-- DESCRIPTION JEUX DE RÔLE -->
+						<div class = "association__games-detail RolePlayingGame hidden">
+							<div class = "association__games-detail-generalPresentation">
+								<h4 class="association__games-detail-generalPresentation-title">Jeux de rôle</h4>
+								<p class="association__games-detail-generalPresentation-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ipsa consequuntur modi libero hic magnam dolorum iusto voluptate, ducimus rerum. Nesciunt, autem eveniet officia corporis totam, quasi eligendi laborum sequi voluptatem omnis magni eos modi, quos dolorum explicabo quam. Commodi placeat autem iure ratione, incidunt obcaecati nemo officiis eaque inventore?</p>
+							</div>
+						</div>
+
+					</div>
+				</article>
+			</section>
+		</div>
+
+		<script src="/script/assoPage.js"></script>
+
+		<%- include('partials/footer') %>
+
+	</body>
+</html>
+
